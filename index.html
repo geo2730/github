@@ -1,153 +1,108 @@
+
+	﻿
 <!DOCTYPE html>
 <html>
+<head>
+  <meta charset="utf-8">
+  <title>月半的日常</title>
 
-  <head>
-    <meta charset='utf-8' />
-    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="月半的日常 : moon half&#39;s day time" />
+  <link href="stylesheets/main.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/main.css">
-    <title>月半的日常</title>
-  </head>
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
 
-  <body>
+  <meta property="og:title" content="2048 game"/>
+  <meta property="og:site_name" content="2048 game"/>		
+</head>
+<body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/geo2730/github">View on GitHub</a>
-
-          <h1 id="project_title">月半的日常</h1>
-          <h2 id="project_tagline">moon half&#39;s day time</h2>
-
-            <section id="downloads">
-              <a class="zip_download_link" href="https://github.com/geo2730/github/zipball/master">Download this project as a .zip file</a>
-              <a class="tar_download_link" href="https://github.com/geo2730/github/tarball/master">Download this project as a tar.gz file</a>
-            </section>
-        </header>
+  <div class="container">
+    <strong class="important">注:</strong> 原作2048地址<a href="http://gabrielecirulli.github.io/2048">http://gabrielecirulli.github.io/2048</a> <br>作者<a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a>
+本版本是2048改编版。如果觉得游戏不错，你可以去原作者页面进行捐助。<br><br>
+    <br><br><br><br>
+    <strong class="important2">关于手机流量说明:</strong>打开网页后，就不再消耗流量了，游戏和服务器没有任何数据交互，所有的东西都换存在手机了。
+    <br>
+    <strong class="important2">关于单机化:</strong>UP主不是职业码农，能力有限，估计出不了手机端，电脑的话只要打开网页Ctrl+S，保存为全部就可以了
+    <br>
+    
+    <strong class="important2">Windows用户:</strong>打开游戏看不见游戏文字，请更换火狐/谷歌浏览器尝试下，或者升级到更高版本的IE以及其他支持HTML5的浏览器。
+    <br><strong class="important2">安卓手机无法显示:</strong>多更换几个浏览器，例如火狐手机浏览器，QQ浏览器等等，UC的话貌似有左右滑动手势不太好用
+    <br><strong class="important2">iOS 6.0以下不显示:</strong>因为早期的Safari浏览器不支持html5。
+    
+    <hr>
+    <div class="heading">
+      <h1 class="title">月半的日常</h1>
+      <div class="scores-container">
+        <div class="score-container">0</div>
+        <div class="best-container">0</div>
+      </div>
     </div>
+    <p class="game-intro">通过操作<strong>↑，↓，←，→（手机浏览器直接触摸屏滑动）</strong>按键，合并相同的角色，努力召唤 <strong>柯暮卿</strong> 吧！当你合出狐月半，离你召唤出柯暮卿也不远了【泥垢。。。。~</p>
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+          <a class="retry-button">再来一次</a>
+          <div class="score-sharing"></div>
+        </div>
+      </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <pre><code>﻿
-</code></pre>
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
 
-<p>&lt;!DOCTYPE html&gt;
+      <div class="tile-container">
 
-</p>
-  月半的日常<p></p>
-
-<p></p>
-
-<p><br></p>
-
-<p></p><div>
-    <strong>注:</strong> 原作2048地址<a href="http://gabrielecirulli.github.io/2048"></a><a href="http://gabrielecirulli.github.io/2048">http://gabrielecirulli.github.io/2048</a> <br>作者<a href="http://gabrielecirulli.com" target="_blank">Gabriele Cirulli.</a>
-本版本是2048改编版。如果觉得游戏不错，你可以去原作者页面进行捐助。<br><br><br><br><br><br><strong>关于手机流量说明:</strong>打开网页后，就不再消耗流量了，游戏和服务器没有任何数据交互，所有的东西都换存在手机了。
-    <br><strong>关于单机化:</strong>UP主不是职业码农，能力有限，估计出不了手机端，电脑的话只要打开网页Ctrl+S，保存为全部就可以了
-    <br><pre><code>&lt;strong class="important2"&gt;Windows用户:&lt;/strong&gt;打开游戏看不见游戏文字，请更换火狐/谷歌浏览器尝试下，或者升级到更高版本的IE以及其他支持HTML5的浏览器。
-&lt;br&gt;&lt;strong class="important2"&gt;安卓手机无法显示:&lt;/strong&gt;多更换几个浏览器，例如火狐手机浏览器，QQ浏览器等等，UC的话貌似有左右滑动手势不太好用
-&lt;br&gt;&lt;strong class="important2"&gt;iOS 6.0以下不显示:&lt;/strong&gt;因为早期的Safari浏览器不支持html5。
-
-&lt;hr&gt;
-&lt;div class="heading"&gt;
-  &lt;h1 class="title"&gt;月半的日常&lt;/h1&gt;
-  &lt;div class="scores-container"&gt;
-    &lt;div class="score-container"&gt;0&lt;/div&gt;
-    &lt;div class="best-container"&gt;0&lt;/div&gt;
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;p class="game-intro"&gt;通过操作&lt;strong&gt;↑，↓，←，→（手机浏览器直接触摸屏滑动）&lt;/strong&gt;按键，合并相同的角色，努力召唤 &lt;strong&gt;柯暮卿&lt;/strong&gt; 吧！当你合出狐月半，离你召唤出柯暮卿也不远了【泥垢。。。。~&lt;/p&gt;
-&lt;div class="game-container"&gt;
-  &lt;div class="game-message"&gt;
-    &lt;p&gt;&lt;/p&gt;
-    &lt;div class="lower"&gt;
-      &lt;a class="retry-button"&gt;再来一次&lt;/a&gt;
-      &lt;div class="score-sharing"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-
-  &lt;div class="grid-container"&gt;
-    &lt;div class="grid-row"&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="grid-row"&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="grid-row"&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="grid-row"&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;div class="grid-row"&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-      &lt;div class="grid-cell"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-  &lt;/div&gt;
-
-  &lt;div class="tile-container"&gt;
-
-  &lt;/div&gt;
-&lt;/div&gt;
-&lt;hr&gt;
-注：柯月半狐妮妮在等待着你，不过你要是真的弄出他们，估计你也要&lt;strong&gt;孤独终生&lt;/strong&gt;了……&lt;/p&gt;
-&lt;hr&gt;    
-
-&lt;p&gt;
-本版本纯属恶搞之作，向剑三念破服的绫姬悠然致谢。因为是在你的基础上修改而成。大家要是觉得这个改编版本不错，请捐助下剑三纵月六只鹅服的&lt;strong&gt;【迩气若游丝】&lt;/strong&gt;→_→邮寄个百八十金什么的，福禄宝箱·安史之乱也请不大意的邮寄给我吧 QAQ 有大铁没小铁的日子真难受啊嘤嘤嘤.....233&lt;br&gt;by &lt;a href="http://weibo.com/u/1826682570" target="_blank"&gt;小贵是个程序猿（我骗个粉丝我容易吗我？【滚）&lt;/a&gt;&lt;br&gt;
-</code></pre>
-
-<p></p>
-</div>
-
-<p></p>
-
-<p>
-</p>
-      </section>
+      </div>
     </div>
+    <hr>
+    注：柯月半狐妮妮在等待着你，不过你要是真的弄出他们，估计你也要<strong>孤独终生</strong>了……</p>
+    <hr>    
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p class="copyright">月半的日常 maintained by <a href="https://github.com/geo2730">geo2730</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
-    </div>
+    <p>
+    本版本纯属恶搞之作，向剑三念破服的绫姬悠然致谢。因为是在你的基础上修改而成。大家要是觉得这个改编版本不错，请捐助下剑三纵月六只鹅服的<strong>【迩气若游丝】</strong>→_→邮寄个百八十金什么的，福禄宝箱·安史之乱也请不大意的邮寄给我吧 QAQ 有大铁没小铁的日子真难受啊嘤嘤嘤.....233<br>by <a href="http://weibo.com/u/1826682570" target="_blank">小贵是个程序猿（我骗个粉丝我容易吗我？【滚）</a><br>
 
-              <script type="text/javascript">
-            var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-            document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-          </script>
-          <script type="text/javascript">
-            try {
-              var pageTracker = _gat._getTracker("月半的日常");
-            pageTracker._trackPageview();
-            } catch(err) {}
-          </script>
-<script src="javascripts/animframe_polyfill.js"></script>
+  </div>
+
+  <script src="javascripts/animframe_polyfill.js"></script>
   <script src="javascripts/keyboard_input_manager.js"></script>
   <script src="javascripts/html_actuator.js"></script>
   <script src="javascripts/grid.js"></script>
@@ -155,6 +110,6 @@
   <script src="javascripts/local_score_manager.js"></script>
   <script src="javascripts/game_manager.js"></script>
   <script src="javascripts/application.js"></script>
-
-  </body>
+  
+</body>
 </html>
