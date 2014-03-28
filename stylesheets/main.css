@@ -461,36 +461,63 @@ hr {
     font-size: 24px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2 .tile-inner {
-        font-size: 16px; } }
+        font-size: 15px; 
+        line-height:40px;} }
     @media screen and (max-width: 520px) {
       .tile.tile-4 .tile-inner {
-        font-size: 16px; } }
+        font-size: 15px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-8 .tile-inner {
-        font-size: 17px; } }
+        font-size: 15px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-16 .tile-inner {
-        font-size: 18px; } }
+        font-size: 15px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-32 .tile-inner {
-        font-size: 19px; } }
+        font-size: 15px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-64 .tile-inner {
-        font-size: 20px; } }
+        font-size: 15px; } }
     @media screen and (max-width: 520px) {
-      .tile.tile-super .tile-inner {
-        font-size: 8px; } }
-
-    @media screen and (max-width: 520px) {
-      .tile.tile-64 .tile-inner {
-        font-size: 20px; } }
+      .tile.tile-128 .tile-inner {
+        font-size: 15px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 15px; } }
     @media screen and (max-width: 520px) {
+      .tile.tile-512 .tile-inner {
+        font-size: 15px; } }
+    @media screen and (max-width: 520px) {
+      .tile.tile-1024 .tile-inner {
+        font-size: 15px; } }
+    @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
-        font-size: 20px;
-        line-height:24px; } }
+        font-size: 15px; } }
+    @media screen and (max-width: 520px) {
+      .tile.tile-4096 .tile-inner {
+        font-size: 15px; } }
+    @media screen and (max-width: 520px) {
+      .tile.tile-8192 .tile-inner {
+        font-size: 15px; } }
+    @media screen and (max-width: 520px) {
+      .tile.tile-16384 .tile-inner {
+        font-size: 15px; } }
+    @media screen and (max-width: 520px) {
+      .tile.tile-32768 .tile-inner {
+        font-size: 15px; } }
+    @media screen and (max-width: 520px) {
+      .tile.tile-65536 .tile-inner {
+        font-size: 15px; } }
+    @media screen and (max-width: 520px) {
+      .tile.tile-131072 .tile-inner {
+        font-size: 15px; } }
+    @media screen and (max-width: 520px) {
+      .tile.tile-262144 .tile-inner {
+        font-size: 15px; } }
+    @media screen and (max-width: 520px) {
+      .tile.tile-super .tile-inner {
+        font-size: 8px; } }
+
 
 @-webkit-keyframes appear {
   0% {
