@@ -54,7 +54,7 @@ HTMLActuator.prototype.clearContainer = function (container) {
 HTMLActuator.prototype.addTile = function (tile) {
   var text=new Array(18);
    text[0] = " ";
-  text[1] = "柯小花";
+  text[1] = "柯<br>小花";
   text[2] = "荆如风";
   text[3] = "黄九郎";
   text[4] = "李连城";
@@ -152,25 +152,25 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 HTMLActuator.prototype.message = function (won) {
   var mytxt=new Array(14);
   mytxt[0]="寨贱づづ~";
-  mytxt[1]="我是小花~~可爱的小花~~~";
-  mytxt[2]="情深缘浅情起缘灭,已误红尘多少年？";
-  mytxt[3]="红线只为一人系..多情犹记...";
-  mytxt[4]="连成：你这里……说不够……";
-  mytxt[5]="段飞鹰：好辣的脾气，我就喜欢这样的人。";
-  mytxt[6]="你家里还有什麽人吗？若有，就一并请了来。若没有，就把桌上的文书签了，晌午过门儿，今夜圆房。————江云起";
-  mytxt[7]="缱绻如梦亦如丝，思尽其联翩";
-  mytxt[8]="一点浩然气，千里快哉风";
-  mytxt[9]="庸脂俗粉算得了嘛~狐王才是真绝色";
-  mytxt[10]="凤霸天下<(╰_╯)╯";
-  mytxt[11]="胡闹！";
-  mytxt[12]="你等我两年。我定会为你复仇，定会让你过上好日子！";
-  mytxt[13]="卿携暮星醉南柯の一树临风欺国色";
-
-
-
+  mytxt[1]="连成：你这里……说不够……我是小花~~可爱的小花~~~";
+  mytxt[2]="段飞鹰：好辣的脾气，我就喜欢这样的人。";
+  mytxt[3]="把桌上的文书签了，晌午过门儿，今夜圆房。by江云起";
+  mytxt[4]="缱绻如梦亦如丝，思尽其联翩";
+  mytxt[5]="一点浩然气，千里快哉风";
+  mytxt[6]="庸脂俗粉算得了嘛~狐王才是真绝色";
+  mytxt[7]="凤霸天下<(╰_╯)╯";
+  mytxt[8]="胡闹！";
+  mytxt[9]="你等我两年。我定会为你复仇，定会让你过上好日子！";
+  mytxt[10]="王府欢迎你，用下限感动你";
+  mytxt[11]="上来吧~上来吧~~这无边的麦序╰（｀Ｏ′）╯";
+  mytxt[12]="天上掉下个狐妮妮";
+  mytxt[13]="月半半，月弯弯";
+我是小花~~可爱的小花~~~
+情深缘浅情起缘灭,已误红尘多少年？
+红线只为一人系..多情犹记...
   var text3 = function (m) { var r = 0; while (m > 1) r++, m >>= 1; return r; }
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "我是！水兵服美少铝！壮士！" : mytxt[text3(maxscore)-3];
+  var message = won ? "恭喜你召唤出水兵服美少铝~壮士！柯小象！" : mytxt[text3(maxscore)-3];
 
   if (typeof ga !== "undefined") {
     ga("send", "event", "game", "end", type, this.score);
