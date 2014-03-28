@@ -165,9 +165,7 @@ HTMLActuator.prototype.message = function (won) {
   mytxt[11]="上来吧~上来吧~~这无边的麦序╰（｀Ｏ′）╯";
   mytxt[12]="天上掉下个狐妮妮";
   mytxt[13]="月半半，月弯弯";
-我是小花~~可爱的小花~~~
-情深缘浅情起缘灭,已误红尘多少年？
-红线只为一人系..多情犹记...
+
   var text3 = function (m) { var r = 0; while (m > 1) r++, m >>= 1; return r; }
   var type    = won ? "game-won" : "game-over";
   var message = won ? "恭喜你召唤出水兵服美少铝~壮士！柯小象！" : mytxt[text3(maxscore)-3];
