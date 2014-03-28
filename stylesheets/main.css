@@ -461,6 +461,9 @@ hr {
     background: #3c3a32;
     font-size: 24px; }
     @media screen and (max-width: 520px) {
+      .tile.tile-2 .tile-inner {
+        font-size: 15px; } }
+    @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
         font-size: 8px; } }
 
