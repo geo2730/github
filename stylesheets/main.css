@@ -461,7 +461,7 @@ hr {
     font-size: 24px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2 .tile-inner {
-        font-size: 15px; } }
+        font-size: 16px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-4 .tile-inner {
         font-size: 16px; } }
