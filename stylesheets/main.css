@@ -492,12 +492,12 @@ hr {
         font-size: 15px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
-        line-height:40px;
-        font-size: 18px; } }
+        line-height:20px;
+        font-size: 20px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        line-height:40px;
-        font-size: 18px; } }
+        line-height:20px;
+        font-size: 20px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         line-height:40px;
@@ -508,8 +508,8 @@ hr {
         font-size: 15px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-8192 .tile-inner {
-        line-height:40px;
-        font-size: 18px; } }
+        line-height:20px;
+        font-size: 20px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-16384 .tile-inner {
         line-height:40px;
