@@ -1,4 +1,3 @@
-
 html, body {
   margin: 0;
   padding: 0;
@@ -463,6 +462,21 @@ hr {
     @media screen and (max-width: 520px) {
       .tile.tile-2 .tile-inner {
         font-size: 15px; } }
+    @media screen and (max-width: 520px) {
+      .tile.tile-4 .tile-inner {
+        font-size: 16px; } }
+    @media screen and (max-width: 520px) {
+      .tile.tile-8 .tile-inner {
+        font-size: 17px; } }
+    @media screen and (max-width: 520px) {
+      .tile.tile-16 .tile-inner {
+        font-size: 18px; } }
+    @media screen and (max-width: 520px) {
+      .tile.tile-32 .tile-inner {
+        font-size: 19px; } }
+    @media screen and (max-width: 520px) {
+      .tile.tile-64 .tile-inner {
+        font-size: 20px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
         font-size: 8px; } }
