@@ -489,15 +489,16 @@ hr {
         font-size: 15px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
+        line-height:40px;
         font-size: 15px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
-        line-height:15px;
-        font-size: 40px; } }
+        line-height:40px;
+        font-size: 15px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        line-height:15px;
-        font-size: 40px; } }
+        line-height:40px;
+        font-size: 15px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         line-height:40px;
@@ -508,8 +509,8 @@ hr {
         font-size: 15px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-8192 .tile-inner {
-        line-height:15px;
-        font-size: 40px; } }
+        line-height:40px;
+        font-size: 15px; } }
     @media screen and (max-width: 520px) {
       .tile.tile-16384 .tile-inner {
         line-height:40px;
